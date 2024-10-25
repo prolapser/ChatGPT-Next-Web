@@ -4,7 +4,7 @@ export const EN_MASKS: BuiltinMask[] = [
     {
         "id": "9qQbAkIpQJm-2wvxLGpTS",
         "avatar": "gpt-bot",
-        "name": "new chat",
+        "name": "Новый чат",
         "context": [{
             "id": "vO9Kl6jChlX9xmmdxV_4h",
             "date": "",
@@ -74,7 +74,7 @@ export const EN_MASKS: BuiltinMask[] = [
     {
         "id": "AeM69C1lWzv9Dy81ogpkZ",
         "avatar": "1f9d9-200d-2642-fe0f",
-        "name": "LLM Role Wizard",
+        "name": "придумать роль",
         "context": [{
             "id": "JSO9QxM0BnAYYADgYI5kf",
             "date": "",
@@ -128,7 +128,7 @@ export const EN_MASKS: BuiltinMask[] = [
             historyMessageCount: 4,
             compressMessageLengthThreshold: 1000,
         },
-        lang: "en",
+        lang: "ru",
         builtin: true,
         createdAt: 1688899480410,
     },
@@ -174,7 +174,7 @@ export const EN_MASKS: BuiltinMask[] = [
             historyMessageCount: 4,
             compressMessageLengthThreshold: 1000,
         },
-        lang: "en",
+        lang: "ru",
         builtin: true,
         createdAt: 1688899480411,
     },
@@ -200,7 +200,7 @@ export const EN_MASKS: BuiltinMask[] = [
             historyMessageCount: 4,
             compressMessageLengthThreshold: 1000,
         },
-        lang: "en",
+        lang: "ru",
         builtin: true,
         createdAt: 1688899480412,
     },
@@ -232,7 +232,7 @@ export const EN_MASKS: BuiltinMask[] = [
             historyMessageCount: 4,
             compressMessageLengthThreshold: 2000,
         },
-        lang: "en",
+        lang: "ru",
         builtin: true,
         createdAt: 1688899480413,
     },
