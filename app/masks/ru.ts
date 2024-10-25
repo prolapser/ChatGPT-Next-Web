@@ -2,7 +2,6 @@ import {BuiltinMask} from "./typing";
 
 export const RU_MASKS: BuiltinMask[] = [
     {
-        "id": "9qQbAkIpQJm-2wvxLGpTS",
         "avatar": "gpt-bot",
         "name": "Новый чат",
         "context": [{
@@ -23,12 +22,11 @@ export const RU_MASKS: BuiltinMask[] = [
             compressMessageLengthThreshold: 1000,
         },
         "lang": "ru",
-        "builtin": false,
+        builtin: true,,
         "createdAt": 1729829970269,
         "plugin": []
     },
     {
-        "id": "L9rItGOQWUxdXyDkM1iGs",
         "avatar": "1f40d",
         "name": "Python",
         "context": [{
@@ -49,12 +47,11 @@ export const RU_MASKS: BuiltinMask[] = [
           compressMessageLengthThreshold: 1000,
       },
         "lang": "ru",
-        "builtin": false,
+        builtin: true,,
         "createdAt": 1729827064499,
         "plugin": []
     },
     {
-        "id": "AeM69C1lWzv9Dy81ogpkZ",
         "avatar": "1f9d9-200d-2642-fe0f",
         "name": "придумать роль",
         "context": [{
@@ -75,9 +72,8 @@ export const RU_MASKS: BuiltinMask[] = [
           compressMessageLengthThreshold: 1000,
       },
         "lang": "ru",
-        "builtin": false,
+        builtin: true,,
         "createdAt": 1729829735017,
-        "plugin": []
     },
     {
         avatar: "1f47e",

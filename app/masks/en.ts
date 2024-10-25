@@ -1,10 +1,9 @@
 import {BuiltinMask} from "./typing";
 
 export const EN_MASKS: BuiltinMask[] = [
-    {
-        "id": "9qQbAkIpQJm-2wvxLGpTS",
+      {
         "avatar": "gpt-bot",
-        "name": "new chat",
+        "name": "Новый чат",
         "context": [{
             "id": "vO9Kl6jChlX9xmmdxV_4h",
             "date": "",
@@ -13,22 +12,21 @@ export const EN_MASKS: BuiltinMask[] = [
         }],
         "syncGlobalConfig": true,
         modelConfig: {
-          model: "chatgpt-4o-latest",
-          temperature: 0.3,
-          max_tokens: 4000,
-          presence_penalty: 0,
-          frequency_penalty: 0,
-          sendMemory: true,
-          historyMessageCount: 4,
-          compressMessageLengthThreshold: 1000,
-      },
-        "lang": "ru",
-        "builtin": false,
+            model: "chatgpt-4o-latest",
+            temperature: 0.3,
+            max_tokens: 4000,
+            presence_penalty: 0,
+            frequency_penalty: 0,
+            sendMemory: true,
+            historyMessageCount: 4,
+            compressMessageLengthThreshold: 1000,
+        },
+        lang: "en",
+        builtin: true,,
         "createdAt": 1729829970269,
         "plugin": []
     },
     {
-        "id": "L9rItGOQWUxdXyDkM1iGs",
         "avatar": "1f40d",
         "name": "Python",
         "context": [{
@@ -48,15 +46,14 @@ export const EN_MASKS: BuiltinMask[] = [
           historyMessageCount: 4,
           compressMessageLengthThreshold: 1000,
       },
-        "lang": "ru",
-        "builtin": false,
+        lang: "en",
+        builtin: true,,
         "createdAt": 1729827064499,
         "plugin": []
     },
     {
-        "id": "AeM69C1lWzv9Dy81ogpkZ",
         "avatar": "1f9d9-200d-2642-fe0f",
-        "name": "LLM Role Wizard",
+        "name": "придумать роль",
         "context": [{
             "id": "JSO9QxM0BnAYYADgYI5kf",
             "date": "",
@@ -74,10 +71,9 @@ export const EN_MASKS: BuiltinMask[] = [
           historyMessageCount: 4,
           compressMessageLengthThreshold: 1000,
       },
-        "lang": "ru",
-        "builtin": false,
+        lang: "en",
+        builtin: true,,
         "createdAt": 1729829735017,
-        "plugin": []
     },
     {
         avatar: "1f47e",
