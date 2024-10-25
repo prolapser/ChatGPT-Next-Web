@@ -42,7 +42,7 @@ export const DEFAULT_CONFIG = {
 
   submitKey: SubmitKey.Enter,
   avatar: "1f603",
-  fontSize: 14,
+  fontSize: 20,
   fontFamily: "",
   theme: Theme.Auto as Theme,
   tightBorder: !!config?.isApp,
@@ -63,7 +63,7 @@ export const DEFAULT_CONFIG = {
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
-    model: "gpt-4o-mini" as ModelType,
+    model: "chatgpt-4o-latest" as ModelType,
     providerName: "OpenAI" as ServiceProvider,
     temperature: 0.5,
     top_p: 1,
