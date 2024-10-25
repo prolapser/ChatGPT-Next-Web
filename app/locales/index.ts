@@ -76,15 +76,15 @@ export function changeLang(lang: Lang) {
 
 export function getISOLang() {
   const isoLangString: Record<string, string> = {
-    cn: "zh-Hans",
-    tw: "zh-Hant",
+    en: "en-US",
+    ru: "ru-RU",
   };
 
   const lang = getLang();
   return isoLangString[lang] ?? lang;
 }
 
-const DEFAULT_STT_LANG = "zh-CN";
+const DEFAULT_STT_LANG = "ru-RU";
 export const STT_LANG_MAP: Record<Lang, string> = {
   en: "en-US",
   ru: "ru-RU",
