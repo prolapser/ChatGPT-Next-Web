@@ -3,8 +3,8 @@ import ru from "./ru";
 import { merge } from "../utils/merge";
 import { safeLocalStorage } from "@/app/utils";
 
-import type { LocaleType } from "./en";
-export type { LocaleType, PartialLocaleType } from "./en";
+//import type { LocaleType } from "./en";
+//export type { LocaleType, PartialLocaleType } from "./en";
 
 const localStorage = safeLocalStorage();
 
