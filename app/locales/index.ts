@@ -42,11 +42,11 @@ function setItem(key: string, value: string) {
 }
 
 function getLanguage() {
-  return DEFAULT_LANG;
+  return "ru";
 }
 
 export function getLang(): Lang {
-  return getLanguage();
+  return"ru";
 }
 
 export function changeLang(lang: Lang) {
@@ -60,7 +60,7 @@ export function getISOLang() {
     en: "en-US",
   };
 
-  const lang = getLang();
+  const lang = "ru";
   return isoLangString[lang] ?? lang;
 }
 
