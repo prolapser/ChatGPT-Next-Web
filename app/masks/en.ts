@@ -22,7 +22,7 @@ export const EN_MASKS: BuiltinMask[] = [
             compressMessageLengthThreshold: 1000,
         },
         lang: "en",
-        builtin: true,,
+        builtin: true,
         "createdAt": 1729829970269,
         "plugin": []
     },
@@ -47,7 +47,7 @@ export const EN_MASKS: BuiltinMask[] = [
           compressMessageLengthThreshold: 1000,
       },
         lang: "en",
-        builtin: true,,
+        builtin: true,
         "createdAt": 1729827064499,
         "plugin": []
     },
@@ -72,7 +72,7 @@ export const EN_MASKS: BuiltinMask[] = [
           compressMessageLengthThreshold: 1000,
       },
         lang: "en",
-        builtin: true,,
+        builtin: true,
         "createdAt": 1729829735017,
     },
     {
