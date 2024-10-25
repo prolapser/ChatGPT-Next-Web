@@ -1,6 +1,6 @@
 import {BuiltinMask} from "./typing";
 
-export const EN_MASKS: BuiltinMask[] = [
+export const RU_MASKS: BuiltinMask[] = [
     {
         "id": "9qQbAkIpQJm-2wvxLGpTS",
         "avatar": "gpt-bot",
